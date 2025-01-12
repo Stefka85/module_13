@@ -1,0 +1,153 @@
+
+(.venv) PS C:\Users\steph\PycharmProjects\module_13> pip install aiogram==2.25.1
+Collecting aiogram==2.25.1
+  Using cached aiogram-2.25.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting aiohttp<3.9.0,>=3.8.0 (from aiogram==2.25.1)
+  Using cached aiohttp-3.8.6.tar.gz (7.4 MB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting Babel<2.10.0,>=2.9.1 (from aiogram==2.25.1)
+  Using cached Babel-2.9.1-py2.py3-none-any.whl.metadata (1.2 kB)
+Requirement already satisfied: certifi>=2021.10.8 in c:\users\steph\pycharmprojects\module_13\.venv\lib\site-packages (from aiogram==2.25.1) (2024.12.14)
+Requirement already satisfied: magic-filter>=1.0.9 in c:\users\steph\pycharmprojects\module_13\.venv\lib\site-packages (from aiogram==2.25.1) (1.0.12)
+Requirement already satisfied: attrs>=17.3.0 in c:\users\steph\pycharmprojects\module_13\.venv\lib\site-packages (from aiohttp<3.9.0,>=3.8.0->aiogram==2.25.1) (24.3.0)
+Collecting charset-normalizer<4.0,>=2.0 (from aiohttp<3.9.0,>=3.8.0->aiogram==2.25.1)
+  Using cached charset_normalizer-3.4.1-cp312-cp312-win_amd64.whl.metadata (36 kB)
+Requirement already satisfied: multidict<7.0,>=4.5 in c:\users\steph\pycharmprojects\module_13\.venv\lib\site-packages (from aiohttp<3.9.0,>=3.8.0->aiogram==2.25.1) (6.1.0)
+Collecting async_timeout<5.0,>=4.0.0a3 (from aiohttp<3.9.0,>=3.8.0->aiogram==2.25.1)
+  Using cached async_timeout-4.0.3-py3-none-any.whl.metadata (4.2 kB)
+Requirement already satisfied: yarl<2.0,>=1.0 in c:\users\steph\pycharmprojects\module_13\.venv\lib\site-packages (from aiohttp<3.9.0,>=3.8.0->aiogram==2.25.1) (1.18.3)
+Requirement already satisfied: frozenlist>=1.1.1 in c:\users\steph\pycharmprojects\module_13\.venv\lib\site-packages (from aiohttp<3.9.0,>=3.8.0->aiogram==2.25.1) (1.5.0)
+Requirement already satisfied: aiosignal>=1.1.2 in c:\users\steph\pycharmprojects\module_13\.venv\lib\site-packages (from aiohttp<3.9.0,>=3.8.0->aiogram==2.25.1) (1.3.2)
+Collecting pytz>=2015.7 (from Babel<2.10.0,>=2.9.1->aiogram==2.25.1)
+  Using cached pytz-2024.2-py2.py3-none-any.whl.metadata (22 kB)
+Requirement already satisfied: idna>=2.0 in c:\users\steph\pycharmprojects\module_13\.venv\lib\site-packages (from yarl<2.0,>=1.0->aiohttp<3.9.0,>=3.8.0->aiogram==2.25.1) (3.10)
+Requirement already satisfied: propcache>=0.2.0 in c:\users\steph\pycharmprojects\module_13\.venv\lib\site-packages (from yarl<2.0,>=1.0->aiohttp<3.9.0,>=3.8.0->aiogram==2.25.1) (0.2.1)
+Using cached aiogram-2.25.1-py3-none-any.whl (203 kB)
+Using cached Babel-2.9.1-py2.py3-none-any.whl (8.8 MB)
+Using cached async_timeout-4.0.3-py3-none-any.whl (5.7 kB)
+Using cached charset_normalizer-3.4.1-cp312-cp312-win_amd64.whl (102 kB)
+Using cached pytz-2024.2-py2.py3-none-any.whl (508 kB)
+Building wheels for collected packages: aiohttp
+  Building wheel for aiohttp (pyproject.toml) ... error
+  error: subprocess-exited-with-error
+
+  × Building wheel for aiohttp (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [106 lines of output]
+      *********************
+      * Accelerated build *
+      *********************
+      running bdist_wheel
+      running build
+      running build_py
+      creating build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\abc.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\base_protocol.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\client.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\client_exceptions.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\client_proto.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\client_reqrep.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\client_ws.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\connector.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\cookiejar.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\formdata.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\hdrs.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\helpers.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\http.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\http_exceptions.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\http_parser.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\http_websocket.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\http_writer.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\locks.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\log.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\multipart.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\payload.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\payload_streamer.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\pytest_plugin.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\resolver.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\streams.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\tcp_helpers.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\test_utils.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\tracing.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\typedefs.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\web.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\web_app.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\web_exceptions.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\web_fileresponse.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\web_log.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\web_middlewares.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\web_protocol.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\web_request.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\web_response.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\web_routedef.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\web_runner.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\web_server.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\web_urldispatcher.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\web_ws.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\worker.py -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\__init__.py -> build\lib.win-amd64-cpython-312\aiohttp
+      running egg_info
+      writing aiohttp.egg-info\PKG-INFO
+      writing dependency_links to aiohttp.egg-info\dependency_links.txt
+      writing requirements to aiohttp.egg-info\requires.txt
+      writing top-level names to aiohttp.egg-info\top_level.txt
+      reading manifest file 'aiohttp.egg-info\SOURCES.txt'
+      reading manifest template 'MANIFEST.in'
+      warning: no files found matching 'aiohttp' anywhere in distribution
+      warning: no previously-included files matching '*.pyc' found anywhere in distribution
+      warning: no previously-included files matching '*.pyd' found anywhere in distribution
+      warning: no previously-included files matching '*.so' found anywhere in distribution
+      warning: no previously-included files matching '*.lib' found anywhere in distribution
+      warning: no previously-included files matching '*.dll' found anywhere in distribution
+      warning: no previously-included files matching '*.a' found anywhere in distribution
+      warning: no previously-included files matching '*.obj' found anywhere in distribution
+      warning: no previously-included files found matching 'aiohttp\*.html'
+      no previously-included directories found matching 'docs\_build'
+      adding license file 'LICENSE.txt'
+      writing manifest file 'aiohttp.egg-info\SOURCES.txt'
+      copying aiohttp\_cparser.pxd -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\_find_header.pxd -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\_headers.pxi -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\_helpers.pyi -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\_helpers.pyx -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\_http_parser.pyx -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\_http_writer.pyx -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\_websocket.pyx -> build\lib.win-amd64-cpython-312\aiohttp
+      copying aiohttp\py.typed -> build\lib.win-amd64-cpython-312\aiohttp
+      creating build\lib.win-amd64-cpython-312\aiohttp\.hash
+      copying aiohttp\.hash\_cparser.pxd.hash -> build\lib.win-amd64-cpython-312\aiohttp\.hash
+      copying aiohttp\.hash\_find_header.pxd.hash -> build\lib.win-amd64-cpython-312\aiohttp\.hash
+      copying aiohttp\.hash\_helpers.pyi.hash -> build\lib.win-amd64-cpython-312\aiohttp\.hash
+      copying aiohttp\.hash\_helpers.pyx.hash -> build\lib.win-amd64-cpython-312\aiohttp\.hash
+      copying aiohttp\.hash\_http_parser.pyx.hash -> build\lib.win-amd64-cpython-312\aiohttp\.hash
+      copying aiohttp\.hash\_http_writer.pyx.hash -> build\lib.win-amd64-cpython-312\aiohttp\.hash
+      copying aiohttp\.hash\_websocket.pyx.hash -> build\lib.win-amd64-cpython-312\aiohttp\.hash
+      copying aiohttp\.hash\hdrs.py.hash -> build\lib.win-amd64-cpython-312\aiohttp\.hash
+      running build_ext
+      building 'aiohttp._websocket' extension
+      creating build\temp.win-amd64-cpython-312\Release\aiohttp
+      "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.42.34433\bin\HostX86\x64\cl.exe" /c /nologo /O2 /W3 /GL /DNDEBUG /MD -IC:\Users\steph\PycharmProjects\module_13\.venv\include -IC:\Users\step
+h\AppData\Local\Programs\Python\Python312\include -IC:\Users\steph\AppData\Local\Programs\Python\Python312\Include "-IC:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.42.34433\include" "-IC:\Progra
+m Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um" "-IC:\Progr
+am Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt" /Tcaiohttp/_websocket.c /Fobuild\temp.win-amd64-cpython-312\Release\aiohttp\_websocket.obj
+      _websocket.c
+      aiohttp/_websocket.c(1475): warning C4996: 'Py_OptimizeFlag': deprecated in 3.12
+      aiohttp/_websocket.c(3042): error C2039: "ob_digit": ­Ґ пў«пҐвбп з«Ґ­®¬ "_longobject".
+      C:\Users\steph\AppData\Local\Programs\Python\Python312\include\cpython/longintrepr.h(87): note:  б¬. ®Ўкпў«Ґ­ЁҐ "_longobject"
+      aiohttp/_websocket.c(3097): error C2039: "ob_digit": ­Ґ пў«пҐвбп з«Ґ­®¬ "_longobject".
+      C:\Users\steph\AppData\Local\Programs\Python\Python312\include\cpython/longintrepr.h(87): note:  б¬. ®Ўкпў«Ґ­ЁҐ "_longobject"
+      aiohttp/_websocket.c(3238): error C2039: "ob_digit": ­Ґ пў«пҐвбп з«Ґ­®¬ "_longobject".
+      C:\Users\steph\AppData\Local\Programs\Python\Python312\include\cpython/longintrepr.h(87): note:  б¬. ®Ўкпў«Ґ­ЁҐ "_longobject"
+      aiohttp/_websocket.c(3293): error C2039: "ob_digit": ­Ґ пў«пҐвбп з«Ґ­®¬ "_longobject".
+      C:\Users\steph\AppData\Local\Programs\Python\Python312\include\cpython/longintrepr.h(87): note:  б¬. ®Ўкпў«Ґ­ЁҐ "_longobject"
+      aiohttp/_websocket.c(3744): error C2039: "ob_digit": ­Ґ пў«пҐвбп з«Ґ­®¬ "_longobject".
+      C:\Users\steph\AppData\Local\Programs\Python\Python312\include\cpython/longintrepr.h(87): note:  б¬. ®Ўкпў«Ґ­ЁҐ "_longobject"
+      error: command 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\cl.exe' failed with exit code 2
+      [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for aiohttp
+Failed to build aiohttp
+ERROR: ERROR: Failed to build installable wheels for some pyproject.toml based projects (aiohttp)
